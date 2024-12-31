@@ -184,6 +184,7 @@ var (
 
 	Platforms_1_20 = addDrop(Platforms_1_19, []Platform{
 		{"linux", "sw_64", false},
+		{"linux", "sw64", false},
 	}, nil)
 
 	PlatformsLatest = Platforms_1_20
